@@ -270,6 +270,16 @@ License: "MIT"
 
 
 --------------------------------------------------------------------------------
+Package: @ngx-translate/http-loader
+License: "SEE LICENSE IN LICENSE"
+
+
+--------------------------------------------------------------------------------
+Package: @ngx-translate/core
+License: "SEE LICENSE IN LICENSE"
+
+
+--------------------------------------------------------------------------------
 Package: @emailjs/browser
 License: "BSD-3-Clause"
 

@@ -1,0 +1,296 @@
+{
+  "menu": {
+    "sections": [
+      { "sectionNumber": "I.", "title": "Home", "link": "#Home", "animationDelay": "400" },
+      { "sectionNumber": "II.", "title": "Projects", "link": "#Project", "animationDelay": "500" },
+      { "sectionNumber": "III.", "title": "Skills", "link": "#Skills", "animationDelay": "1000" },
+      { "sectionNumber": "IV.", "title": "About", "link": "#About", "animationDelay": "1500" },
+      { "sectionNumber": "V.", "title": "Contact", "link": "#Contact", "animationDelay": "2000" }
+    ],
+    "resumeButton": "Resume"
+  },
+  "home": {
+    "greeting": "Hello, my name is",
+    "name": "Anibal Quintero.",
+    "tagline": "Creating digital experiences on the web",
+    "introduction": {
+      "part1": "I am a",
+      "part2": "full-stack software engineer",
+      "part3": "with experience in developing comprehensive solutions. I am ready to put my skills at the service of your team and contribute to its success."
+    }
+  },
+  "project": {
+    "title": "Projects",
+    "projectLabel": "Project",
+    "technologiesLabel": "Technologies",
+    "seeMoreButton": "See more projects",
+    "seeLessButton": "See Less",
+    "projects": [
+      {
+        "project_number": "0.1",
+        "image": "https://i.ibb.co/YTrxc2f/ip.webp",
+        "name": "IP Address Tracker",
+        "description": "Explore locations via IP addresses. Displays geographical information, although its accuracy may vary depending on data availability. Intuitive interface for IP location searches.",
+        "technologies": ["React.js", "API Integration", "HTML5", "CSS", "DEVICON"],
+        "gitHub": "https://github.com/Anibal-quintero/IP-Address-Tracker",
+        "open_site": "https://ip-address-tracker-fhqb.onrender.com/"
+      },
+      {
+        "project_number": "0.2",
+        "image": "https://i.ibb.co/Zhf9PRv/a9.webp",
+        "name": "Rest of Countries",
+        "description": "I built this page by integrating it with the country API. It offers an intuitive interface to search for and access specific information about each country, ensuring a smooth user experience and a customizable dark mode.",
+        "technologies": ["React.js", "API Integration", "HTML5", "CSS", "Boxicons"],
+        "gitHub": "https://github.com/Anibal-quintero/Rest-Countries",
+        "open_site": "https://rest-countries-a.onrender.com/"
+      },
+      {
+        "project_number": "0.3",
+        "image": "https://i.ibb.co/V26SmKC/a2.webp",
+        "name": "Weather Application",
+        "description": "Developed a weather forecast application called Weather App. In this application, I use data from a weather API to provide accurate and real-time information. With a user-friendly and detailed interface.",
+        "technologies": ["React.js", "API Integration", "HTML5", "CSS", "Font Awesome"],
+        "gitHub": "https://github.com/Anibal-quintero/Weather-Now",
+        "open_site": "https://weather-now-q7mh.onrender.com/"
+      },
+      {
+        "project_number": "0.4",
+        "image": "https://i.ibb.co/5LdNc56/image.webp",
+        "name": "Rick and Morty",
+        "description": "Developed a web application centered on the characters of the popular series 'Rick and Morty', providing users with an intuitive platform to explore and obtain detailed information about these characters in an accessible way.",
+        "technologies": ["Angular", "TypeScript", "API Integration", "HTML", "Tailwind CSS", "Flowbite", "Angular Routing"],
+        "gitHub": "https://github.com/Anibal-quintero/Rick-y-morty-",
+        "open_site": "https://rick-y-morty-amber.vercel.app/"
+      },
+      {
+        "project_number": "0.5",
+        "image": "https://i.ibb.co/51kHtQW/a8.webp",
+        "name": "Calculator",
+        "description": "This web calculator is a simple application that I developed using HTML, CSS, and React.js. It offers an intuitive and easy-to-use interface for performing basic mathematical operations, such as addition, subtraction, multiplication, and division.",
+        "technologies": ["React.js", "HTML5", "CSS"],
+        "gitHub": "https://github.com/Anibal-quintero/Calculator",
+        "open_site": "https://calculator-j1ab.onrender.com/"
+      },
+      {
+        "project_number": "0.6",
+        "image": "https://i.ibb.co/hB2csyH/a6.webp",
+        "name": "Box Shadow Generator",
+        "description": "Created a CSS shadow generator to easily adjust the offset, blur, spread, and color. With an intuitive interface, you have total control over the style. Facilitates the creation of CSS code for shadows.",
+        "technologies": ["JavaScript", "HTML5", "CSS"],
+        "gitHub": "https://github.com/Anibal-quintero/box-shadow-generator",
+        "open_site": "https://box-shadow-generator.onrender.com/"
+      },
+      {
+        "project_number": "0.7",
+        "image": "https://i.ibb.co/g3M9Myp/a3.webp",
+        "name": "Pokémon",
+        "description": "Developed a page that allows users to search for Pokémon by name and type. Also, I offer you the flexibility to adjust the number of Pokémon you want to see on a single page. Find your favorite Pokémon.",
+        "technologies": ["React.js", "API Integration", "HTML5", "CSS", "Figma"],
+        "gitHub": "https://github.com/Anibal-quintero/Pokedex-project-AN",
+        "open_site": "https://pokedex-project-an.onrender.com/"
+      },
+      {
+        "project_number": "0.8",
+        "image": "https://i.ibb.co/cQHBvfn/a7.webp",
+        "name": "Advice Generator Application",
+        "description": "Created this web application with HTML, CSS, and JavaScript as part of a Front-end Mentor challenge. Offers random advice with a click, showcasing my ability to create interactive experiences and work with APIs.",
+        "technologies": ["API Integration", "HTML5", "CSS", "JavaScript"],
+        "gitHub": "https://github.com/Anibal-quintero/Advice-generator-app",
+        "open_site": "https://advice-generator-app-rtp6.onrender.com/"
+      }
+    ]
+  },
+  "skill": {
+    "title": "Skills",
+    "skills": [
+      {
+        "name": "Front-End",
+        "delay": "0",
+        "technologies": [
+          { "class": "devicon-react-original", "name": "React.js" },
+          { "class": "devicon-typescript-plain", "name": "TypeScript" },
+          { "class": "devicon-angularjs-plain", "name": "Angular" },
+          { "class": "devicon-tailwindcss-original", "name": "Tailwind-CSS" },
+          { "class": "devicon-redux-original", "name": "Redux.js" },
+          { "class": "devicon-css3-plain", "name": "CSS" },
+          { "class": "devicon-html5-plain", "name": "HTML5" },
+          { "class": "devicon-bootstrap-plain", "name": "Bootstrap" },
+          { "class": "devicon-javascript-plain", "name": "JavaScript" }
+        ]
+      },
+      {
+        "name": "Back-End",
+        "delay": "100",
+        "technologies": [
+          { "class": "devicon-nodejs-plain", "name": "Node.js" },
+          { "class": "devicon-javascript-plain", "name": "JavaScript" },
+          { "class": "devicon-mysql-original", "name": "MySQL" },
+          { "class": "devicon-azuresqldatabase-plain", "name": "SQL" },
+          { "class": "devicon-sequelize-plain", "name": "Sequelize" },
+          { "class": "devicon-express-original", "name": "Express" },
+          { "class": "devicon-postgresql-plain", "name": "Postgresql" }
+        ]
+      },
+      {
+        "name": "Tools",
+        "delay": "200",
+        "technologies": [
+          { "class": "devicon-postman-plain", "name": "Postman" },
+          { "class": "devicon-git-plain", "name": "Git" },
+          { "class": "devicon-github-original", "name": "GitHub" },
+          { "class": "devicon-vscode-plain", "name": "Visual Studio" },
+          { "class": "devicon-figma-plain", "name": "Figma" },
+          { "class": "devicon-slack-plain", "name": "Slack" },
+          { "class": "devicon-atom-original", "name": "Atom" }
+        ]
+      },
+      {
+        "name": "Learning",
+        "delay": "300",
+        "technologies": [
+          { "class": "devicon-astro-plain", "name": "Astro" },
+          { "class": "devicon-python-plain", "name": "Python" }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "title": "About",
+    "introduction": {
+      "part1": "Hello! My name is Anibal, and I like",
+      "part2": "software development,",
+      "part3": "especially in the front-end field."
+    },
+    "experience": {
+      "part1": "My interest in this discipline ignited when I decided to venture into creating my first website self-taught. This experience provided me with valuable knowledge in fundamental technologies such as HTML, CSS, and JavaScript. Subsequently, I continued my studies at",
+      "part2": "ACADEMLO,",
+      "part3": "where I successfully completed my training as a full-stack web developer."
+    },
+    "focus": "I like to focus on the front-end to elevate the quality of the projects I participate in. I have actively collaborated with colleagues, overcoming challenges and solving problems as a team. This experience has strengthened my collaborative skills and promoted continuous learning."
+  },
+  "Attributes": {
+    "title": "Distinctive Attributes",
+    "uniqueQualities": [
+      {
+        "title": "Unwavering Dedication",
+        "description": "I demonstrate a strong and consistent commitment to my goals, investing the necessary time and effort to achieve them."
+      },
+      {
+        "title": "Limitless Creativity",
+        "description": "I approach each challenge with an open and creative mind, always seeking innovative and maintainable solutions."
+      },
+      {
+        "title": "Commitment to Excellence",
+        "description": "I strive to exceed expectations for every project, prioritizing quality and attention to detail at every step of the process."
+      },
+      {
+        "title": "Adaptability and Resilience",
+        "description": "In the face of challenges, I remain calm and flexible, finding opportunities amidst adversity and learning from each experience."
+      },
+      {
+        "title": "Teamwork Skills",
+        "description": "Valuing collaboration and idea exchange, I positively contribute to teamwork, fostering a supportive and cooperative environment."
+      },
+      {
+        "title": "Impeccable Professional Ethics",
+        "description": "I act with integrity in all my professional interactions, prioritizing transparency, honesty, and respect for others."
+      }
+    ]
+  },
+  "experience": {
+    "title": "Areas of Expertise",
+    "services": [
+      {
+        "title": "SEO",
+        "description": "Search engine optimization to improve ranking and online visibility."
+      },
+      {
+        "title": "Accessibility",
+        "description": "Development of accessible websites that comply with accessibility standards to ensure an inclusive experience for everyone."
+      },
+      {
+        "title": "Interaction",
+        "description": "Design of intuitive and attractive user interfaces to enhance the user experience."
+      },
+      {
+        "title": "Layout",
+        "description": "Creation of mockups and web designs using the latest technologies and tools."
+      },
+      {
+        "title": "Full Web Development",
+        "description": "Development of complete web applications, from planning to implementation and maintenance."
+      },
+      {
+        "title": "Responsive Web",
+        "description": "Creation of websites that adapt and perform well on a variety of devices and screen sizes."
+      },
+      {
+        "title": "Library Integration",
+        "description": "Integration of libraries and frameworks to optimize development and site functionality."
+      },
+      {
+        "title": "API Integration",
+        "description": "Consumption of third-party APIs to add specific functionalities to websites. Use RESTful APIs to efficiently fetch external data."
+      },
+      {
+        "title": "Unit Testing",
+        "description": "Creation and execution of unit tests to ensure correct code functionality and early error detection."
+      }
+    ]
+  },
+  "recommendation": {
+    "title": "Recommendations",
+    "recommendations": [
+      {
+        "id": 1,
+        "image": "https://i.ibb.co/YNNN08n/20220331-151952.webp",
+        "name": "Abraham Colina",
+        "description": "It is my pleasure to recommend Anibal Meza Quintero, a graduate of our full-stack web development bootcamp at Academlo. During the program, he demonstrated dedication, strong technical skills, and effective teamwork. He acquired competencies in technologies such as HTML, CSS, JavaScript, and Node.js. His problem-solving abilities and work ethic make him an ideal candidate for web development roles. His outstanding performance and positive attitude are evident in all areas of the program.",
+        "location": "México",
+        "email": "abraham.colina@academlo.com"
+      },
+      {
+        "id": 2,
+        "image": "https://i.ibb.co/9rS19gL/Benjamin-Flores.webp",
+        "name": "Benjamin Flores",
+        "description": "I was Anibal's React instructor, and I must mention that he demonstrated excellent problem-solving skills and project delivery. His enthusiasm and dedication during learning were remarkable. Additionally, he showed an impressive ability to overcome challenges and a commendable commitment to his work. It is truly inspiring to see his constant motivation to keep improving and growing in his career as a developer.",
+        "location": "Chile",
+        "email": "benjamin.flores@academlo.com"
+      },
+      {
+        "id": 3,
+        "image": "https://i.ibb.co/qxxp0tz/Fabiola-Rodriguez.webp",
+        "name": "Fabiola Rodriguez",
+        "description": "During his time with us, Anibal demonstrated an exceptional commitment to learning and an innate talent for problem-solving in programming. He not only showed a solid mastery of programming languages and relevant technologies, but also a remarkable ability to work in a team and communicate effectively with colleagues and mentors. I am confident that having him as part of your team will positively contribute to the development of your company.",
+        "location": "México",
+        "email": "fabiola.rodriguez@academlo.com"
+      }
+    ]
+  },
+  "contact": {
+    "title1": "Great!",
+    "title2": "Let's get in touch!",
+    "description": "I am currently seeking new job opportunities and am open to exploring exciting challenges. If you have an opportunity that you think might fit my profile or simply want to get in touch, I would be delighted to hear from you! My inbox is open, and I look forward to any message you may have for me. Thank you!",
+    "callToAction": "Don't waste any more time! I'm just a message away on WhatsApp. Let's talk.",
+    "whatsappButton": "WhatsApp",
+    "formButton": "Form"
+  },
+  "form": {
+    "title": "¡Send me your message now!",
+    "successMessage": "Form successfully submitted!",
+    "errorMessage": "Error sending. Please try again later!",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your Name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Your Email",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Your Message",
+    "submitButton": "Send"
+  },
+  "footer": {
+    "credit": "Architecture and Development by Anibal Quintero"
+  },
+  "globalButton": {
+    "contact": "Contact Me"
+  }
+}
